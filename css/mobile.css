@@ -1,0 +1,186 @@
+@media (max-width: 767.98px) {
+  section .container {
+    padding: 0;
+  }
+  .bg-gray {
+    background: #f7f7f7;
+  }
+
+  .section-title {
+    padding-left: 20px;
+  }
+
+  #personal-info {
+    background: #f1f3f5;
+    padding-bottom: 40px;
+  }
+
+  #personal-info ul {
+    padding: 0;
+  }
+
+  /* Start Navbar */
+  #nav-bar .container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    width: 100vw;
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+
+  #nav-bar .container a:link,
+  a:visited {
+    border-left: none;
+    padding: 8px;
+  }
+
+  .avatar {
+    display: none;
+  }
+
+  /* End Navbar */
+
+  /* Start Thông tin */
+  #about .container {
+    grid-template-columns: 1fr;
+    width: 100vw;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  #target {
+    padding-bottom: 40px;
+  }
+
+  #job-info .container {
+    grid-template-columns: 1fr;
+    width: 100vw;
+  }
+
+  .job-info-item {
+    width: 96vw;
+    margin-left: 8px;
+  }
+  /* End Thông tin */
+
+  /* Start Chứng chỉ */
+  #certificate .container {
+    width: 100vw;
+  }
+
+  .certificate {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100vw;
+    border-bottom: none;
+  }
+
+  .certificate-item {
+    grid-template-columns: 1fr;
+    border-right: none;
+    border-bottom: 1px solid #d6c08d;
+  }
+
+  .certificate-description {
+    margin-bottom: 20px;
+  }
+  /* End Chứng chỉ */
+
+  /* Start Dự án */
+  #project .container {
+    width: 100vw;
+  }
+
+  .project-content {
+    grid-template-columns: 1fr;
+    width: 100vw;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .project-item {
+    padding-bottom: 20px;
+  }
+
+  .project-item-name a,
+  a:link,
+  a:visited {
+    color: #495057;
+  }
+
+  .project-item-time {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    font-size: 100%;
+  }
+  .project-item-time span {
+    margin-bottom: 8px;
+  }
+
+  .item-year {
+    width: fit-content;
+    margin-left: 20px;
+  }
+
+  /* End dự án */
+
+  /* Start footer */
+  #footer,
+  #footer .container {
+    width: 100vw;
+  }
+
+  #footer .container ul {
+    padding: 20px;
+  }
+
+  #footer .container li {
+    padding: 0;
+  }
+
+  #footer .container a {
+    font-size: 14px;
+  }
+
+  #footer span {
+    display: none;
+  }
+
+  .ic-footer {
+    font-size: 32px;
+    color: #4dabf7;
+  }
+
+  /* End footer */
+
+  /* Digital CV */
+  .digital-cv {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .goals {
+    order: 1;
+  }
+
+  .scope {
+    order: 2;
+  }
+
+  .team {
+    order: 3;
+  }
+
+  .primary {
+    order: 4;
+  }
+
+  .timeline {
+    order: 5;
+  }
+}
